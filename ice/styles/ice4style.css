@@ -1,12 +1,47 @@
 body{
     margin: 0;
     background-color:steelblue;
-    text-align: center;
 }
-main{
-    max-width: 600px;
+#toppart{
     margin: 0 auto;
+    text-align: center;
+    width: 600px;
+}
+#title{
+    font-size: 70px;
+    color: white;
+}
+#title:hover{
+    color: black;
+}
+.startpara{
+    font-size: 25px;
+    color: white;
+}
+#middlepart{
+    margin: 0 auto;
+    width: 600px;
+}
+#list{
+    font-size: 25px;
+}
+#piccy{
+    margin: 0 auto;
+    width: 300px;
 }
 #prophet{
     width: 300px;
+}
+#bottompart{
+    margin: 0 auto;
+    width: 450px;
+}
+#endquote{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.endpara{
+    text-align: center;
+    font-size: 20px;
 }
