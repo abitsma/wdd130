@@ -9,6 +9,9 @@ header{
     max-width: 1600px;
     margin: 0 auto;
 }
+/*.logo{
+    width: 80px;
+}*/
 nav a{
     text-align: center;
     color: #C6C5B9;
