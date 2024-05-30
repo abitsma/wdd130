@@ -8,7 +8,7 @@ body{
 }
 .grid{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: auto auto;
 }
 .item1{
     grid-column: 1/3;
