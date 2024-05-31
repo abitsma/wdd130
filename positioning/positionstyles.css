@@ -172,8 +172,8 @@ gap: 20px;
   /* This is the parent of the activity 6 boxes. */
   display: grid;
   /* this is a 6x6 grid btw*/
-  grid-template-columns: 100px 100px 100px 100xp 100px 100px;
-  grid-template-rows: 100px 100px 100px 100xp 100px 100px;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px;
   gap: 0px;
 }
 .red6 {
