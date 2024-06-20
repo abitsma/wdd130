@@ -5,7 +5,7 @@ header{
     text-align: center;
     width: 25%;
     margin: 0 auto;
-    
+    font-size: 0;
 }
 .hero{
     width: 100%;
@@ -19,6 +19,7 @@ main{
 }
 .para{
     color: gray;
+    font-size: 1.5em;
 }
 footer{
     background-color: #405C89;
@@ -34,34 +35,49 @@ h3{
     margin:0;
     color: #405C89;
 }
+h1{
+    font-size: 3em;
+    margin: 0px auto 30px auto;
+}
 .endbox{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
     justify-items: center;
-    column-gap: 40px;
-    column-rule: 4px solid gray;
 }
 .one{
     grid-column: 1/2;
     grid-row: 1/2;
+    font-size: 1.5em;
+    margin: 20px auto 0px auto;
 }
 .two{
     grid-column: 1/2;
     grid-row: 2/3;
+    font-size: .75em;
+    margin: 0px auto 20px auto;
 }
 .three{
     grid-column: 2/3;
     grid-row: 1/2;
+    font-size: 1.5em;
+    margin: 20px auto 0px auto;
 }
 .four{
     grid-column: 2/3;
     grid-row: 2/3;
+    font-size: .75em;
+    margin: 0px auto 20px auto;
 }
 .five{
     grid-column: 3/4;
     grid-row: 1/2;
+    font-size: 1.5em;
+    margin: 20px auto 0px auto;
 }
 .six{
     grid-column: 3/4;
     grid-row: 2/3;
+    font-size: .75em;
+    margin: 0px auto 20px auto;
 }
